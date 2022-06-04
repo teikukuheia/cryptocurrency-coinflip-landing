@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none !important;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background: #000;
+    min-width: 1275px;
+    overflow-x: hidden;   
+}
+a {
+    color: white;
+}
+header {
+    font-weight: 500;
+    color: white;
+    height: 80px;
+}
+.w90p {
+    width: 90%;
+}
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.col {
+    flex-direction: column;
+}
+.bg-content {
+    background: url(src/bg-img.svg) no-repeat;
+    background-size: contain;
+}
+.pointer {
+    cursor: pointer;
+}
+.no-select {
+    user-select: none;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+}
+.middle {
+    margin: 0 auto;
+}
+.outer {
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.inner {
+    background: linear-gradient(225deg, #18C8FF, #933FFE);
+}
+.item {
+    margin: 0 30px;
+}
+.banner {
+    margin: 190px 0;
+}
+.banner-text {
+    color: white;
+    line-height: 130%;
+    font-size: 85px;
+    width: 900px;
+    text-align: center;
+}
+.crypto-banner-text {
+    color: white;
+    line-height: 130%;
+    font-size: 50px;
+    width: 900px;
+    text-align: center;
+    z-index: 9999;
+}
+.banner-sub-text {
+    color: #898CA9;
+    font-weight: 500;
+    width: 600px;
+    text-align: center;
+}
+.banner-button {
+    width: 156px;
+    height: 56px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.banner-button .inner:nth-child(1){
+    background: #000;
+}
+.cards-item {
+    background: #1A1B23;
+    border-radius: 25px;
+    width: 385px;
+    padding: 32px 24px;
+    margin: 0 20px;
+}
+.cards-item h1 {
+    color: white;
+}
+.cards-item p {
+    color: #898CA9;
+}
+.outer-link p {
+    color: #B982FF;
+    font-weight: 500;
+    margin: 0 5px;
+}
+.outer-link {
+    margin: 15px 0;
+}
+.crypto-banner {
+    margin: 200px 0;
+}
+.crypto-banner-bg {
+    background: url(src/block-4.svg);
+    background-size: cover;
+    width: 100%;
+}
+.crypto-banner-bg-left {
+    background: url(src/bg-img-left.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.margin {
+    padding: 0 100px;
+}
+.support-text {
+    width: 580px;
+    margin-left: 120px;
+}
+.support-text h1 {
+    color: white;
+    font-size: 50px;
+}
+.support-text p {
+    color: #898CA9;
+}
+.support-bg img {
+    height: 300px;
+}
+.gradient {
+    position: absolute;
+    right: 0;
+    top: 2800px;
+}
+.currency-table {
+    margin: 100px 0;
+    border-radius: 25px;
+    background-color: #1A1B23;
+    color: white;
+    padding: 32px 96px;
+    z-index: 9998;
+    min-width: 1347px;
+    width: 80vw;
+}
+.currency-short {
+    color: #B982FF;
+    font-weight: 700;
+    font-size: 20px;
+    width: 70px;
+}
+.currency {
+    justify-content: space-evenly;
+    margin: 15px 0;
+    z-index: 9999;
+}
+.currency h2 {
+    width: 100px;
+}
+.currency-price {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 150px;
+}
+.currency-grow {
+    color: #0DBB7C;
+    font-weight: 700;
+    font-size: 20px;
+    width: 50px;
+}
+.currency-fall {
+    color: #FF8282;
+    font-weight: 700;
+    font-size: 20px;
+    width: 50px;
+}
+.trade p {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 10px;
+}
+.group div {
+    margin: 0 40px;
+}
+.table-line {
+    height: 1px;
+    border-top: 1px solid #2B2C3B;
+}
+.currency:nth-child(5){
+    position: relative;
+    left: 4px;
+}
+.currency:nth-child(7){
+    position: relative;
+    left: 3px;
+}
+.advice h1 {
+    color: white;
+    width: 560px;
+    font-size: 50px;
+}
+.advice p {
+    color: #898CA9;
+    width: 580px;
+    line-height: 24px;
+}
+.privacy-pol {
+    margin: 80px 0;
+}
+.privacy-pol p {
+    color: #898CA9;
+}
+.privacy-pol h1 {
+    color: #fff;
+    font-size: 50px;
+}
+.privacy {
+    color: #fff;
+}
+.z-index {
+    z-index: 9999;
+}
+.input {
+    padding: 17px 32px;
+    border: 1px solid #898CA9;
+    border-radius: 10px;
+}
+.input input {
+    background: rgba(0,0,0,.0);
+    border: none;
+    color: #565976;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.input input:focus {
+    outline: none;
+}
+footer {
+    height: 300px;
+    width: 100%;
+    margin: 120px 0;
+}
+footer p {
+    color: rgba(255,255,255,.3);
+    font-size: 14px;
+    width: 380px;
+}
+.logo {
+    height: 20px;
+}
+.footer-email {
+    width: 260px;
+    margin-top: 30px;
+}
+.col-width {
+    width: 200px;
+}
+.right-footer {
+    margin-left: 300px;
+}
+.err {
+    height: 55vh;
+    color: #898CA9;
+}
