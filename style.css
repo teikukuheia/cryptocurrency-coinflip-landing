@@ -284,4 +284,5 @@ footer p {
 .err {
     height: 55vh;
     color: #898CA9;
+    font-weight: 500;
 }
