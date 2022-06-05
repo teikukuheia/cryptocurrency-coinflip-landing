@@ -96,6 +96,9 @@ header {
     font-weight: 600;
     text-decoration: none;
 }
+.privacy-font-weight {
+    font-weight: 500;
+}
 .banner-button .inner:nth-child(1){
     background: #000;
 }
